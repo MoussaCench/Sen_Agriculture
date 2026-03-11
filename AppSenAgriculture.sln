@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11429.125
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSenAgriculture", "AppSenAgriculture.csproj", "{88A64C9B-6BE7-47DA-A774-C999186CADD7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSenAgriculture", "..\SetupSenAgriculture\SetupSenAgriculture.vdproj", "{4BC7C6B2-5AD8-9481-EA65-212FA88CE15D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A64C9B-6BE7-47DA-A774-C999186CADD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A64C9B-6BE7-47DA-A774-C999186CADD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A64C9B-6BE7-47DA-A774-C999186CADD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A64C9B-6BE7-47DA-A774-C999186CADD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC7C6B2-5AD8-9481-EA65-212FA88CE15D}.Debug|Any CPU.ActiveCfg = Debug
+		{4BC7C6B2-5AD8-9481-EA65-212FA88CE15D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD0DDA2-2A08-4A5C-83A0-761350D50395}
+	EndGlobalSection
+EndGlobal

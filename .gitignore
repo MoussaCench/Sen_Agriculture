@@ -1,0 +1,59 @@
+# ============================================================
+# GITIGNORE MEMBRE 1 - À utiliser pour pousser UNIQUEMENT ta partie
+# Usage: copie ce fichier en .gitignore avant ton git add / push
+# Partie: Connexion, démarrage (Splash), configuration, thème
+# ============================================================
+
+# Fichiers / dossiers à ne jamais pousser
+bin/
+obj/
+.vs/
+packages/
+*.user
+*.suo
+*.cache
+*.log
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+Error/
+SqlServerTypes/
+UpgradeLog.htm
+
+# Ignorer tout le reste du projet sauf les fichiers listés ci-dessous
+/*
+!/.gitignore
+!/.gitignore.membre1
+!/.gitignore.membre2
+!/.gitignore.membre3
+
+# Solution et projet (partagés)
+!/AppSenAgriculture.sln
+!/AppSenAgriculture.csproj
+!/App.config
+!/App.config.example
+
+# Partie Membre 1 : Connexion + Program + Splash + Thème
+!/Form1.cs
+!/Form1.Designer.cs
+!/Form1.resx
+!/Program.cs
+!/Views/
+!/Views/frmSplash.cs
+!/Views/frmSplash.Designer.cs
+!/Helper/
+!/Helper/ThemeManager.cs
+!/Helper/ModernControls.cs
+!/Properties/
+!/Properties/AssemblyInfo.cs
+!/Properties/Resources.Designer.cs
+!/Properties/Resources.resx
+!/Properties/Settings.Designer.cs
+!/Properties/Settings.settings
