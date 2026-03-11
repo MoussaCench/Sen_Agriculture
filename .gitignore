@@ -1,7 +1,6 @@
 # ============================================================
-# GITIGNORE MEMBRE 1 - À utiliser pour pousser UNIQUEMENT ta partie
 # Usage: copie ce fichier en .gitignore avant ton git add / push
-# Partie: Connexion, démarrage (Splash), configuration, thème
+# Partie: Models, formulaires (Clients, Paramètres), Migrations, Report, GMailer, etc.
 # ============================================================
 
 # Fichiers / dossiers à ne jamais pousser
@@ -40,17 +39,8 @@ UpgradeLog.htm
 !/App.config
 !/App.config.example
 
-# Partie Membre 1 : Connexion + Program + Splash + Thème
-!/Form1.cs
-!/Form1.Designer.cs
-!/Form1.resx
-!/Program.cs
 !/Views/
-!/Views/frmSplash.cs
-!/Views/frmSplash.Designer.cs
 !/Helper/
-!/Helper/ThemeManager.cs
-!/Helper/ModernControls.cs
 !/Properties/
 !/Properties/AssemblyInfo.cs
 !/Properties/Resources.Designer.cs
