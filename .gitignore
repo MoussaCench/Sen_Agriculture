@@ -1,0 +1,55 @@
+# ============================================================
+# GITIGNORE MEMBRE 2 - À utiliser pour pousser UNIQUEMENT ta partie
+# Usage: copie ce fichier en .gitignore avant ton git add / push
+# Partie: Fenêtre principale MDI, dashboard, menu, Utils, Crypto
+# ============================================================
+
+# Fichiers / dossiers à ne jamais pousser
+bin/
+obj/
+.vs/
+packages/
+*.user
+*.suo
+*.cache
+*.log
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+Error/
+SqlServerTypes/
+UpgradeLog.htm
+
+# Ignorer tout le reste du projet sauf les fichiers listés ci-dessous
+/*
+!/.gitignore
+!/.gitignore.membre1
+!/.gitignore.membre2
+!/.gitignore.membre3
+
+# Solution et projet (partagés)
+!/AppSenAgriculture.sln
+!/AppSenAgriculture.csproj
+!/App.config
+!/App.config.example
+
+# Partie Membre 2 : MDI principal + Helper (Utils, Crypto)
+!/frmMDI.cs
+!/frmMDI.Designer.cs
+!/frmMDI.resx
+!/Helper/
+!/Helper/Utils.cs
+!/Helper/Crypto.cs
+!/Properties/
+!/Properties/AssemblyInfo.cs
+!/Properties/Resources.Designer.cs
+!/Properties/Resources.resx
+!/Properties/Settings.Designer.cs
+!/Properties/Settings.settings
